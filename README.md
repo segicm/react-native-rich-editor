@@ -11,9 +11,9 @@
 > If you want to use **flutter**, you can check [here](https://github.com/wxik/flutter-rich-editor) to add **flutter_rich_editor**
 
 ```
-yarn add segicm/react-native-pell-rich-editor
+yarn add segicm/react-native-rich-editor.git
 or
-npm i segicm/react-native-pell-rich-editor
+npm i segicm/react-native-rich-editor.git
 ```
 
 Also, follow instructions [here](https://github.com/react-native-community/react-native-webview) to add the native `react-native-webview` dependency.
