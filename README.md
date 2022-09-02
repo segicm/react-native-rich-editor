@@ -11,9 +11,9 @@
 > If you want to use **flutter**, you can check [here](https://github.com/wxik/flutter-rich-editor) to add **flutter_rich_editor**
 
 ```
-yarn add react-native-pell-rich-editor
+yarn add segicm/react-native-pell-rich-editor
 or
-npm i react-native-pell-rich-editor
+npm i segicm/react-native-pell-rich-editor
 ```
 
 Also, follow instructions [here](https://github.com/react-native-community/react-native-webview) to add the native `react-native-webview` dependency.
@@ -83,7 +83,7 @@ The editor component. Simply place this component in your view hierarchy to rece
   Execute JS in the editor
    ```js
     // $ = document
-    this.richText.current?.commandDOM('$.execCommand('insertHTML', false, "<br/>")');
+    this.richText.current?.command('$.execCommand('insertHTML', false, "<br/>")');
     ```
 
 * `commandDOM`
