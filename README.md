@@ -49,6 +49,9 @@ The editor component. Simply place this component in your view hierarchy to rece
 * `disabled`
 * Boolean value to disable editor. The default value is `false`.
 
+* `autoCorrect`
+* Boolean value to enable auto correct. The default value is `false`.
+
 * `enterKeyHint`
 * String value to set return key type - [returnKeyType](https://reactnative.dev/docs/textinput#returnkeytype)
 
