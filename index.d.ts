@@ -43,6 +43,11 @@ export interface RichEditorProps extends WebViewProps {
      * Boolean value to disable editor. The default value is false.
      */
     disabled?: boolean;
+    
+    /**
+     * Boolean value to enable auto-correct. The default value is false.
+     */
+    autoCorrect?: boolean;
 
     /**
      * String value to set text auto capitalization.
