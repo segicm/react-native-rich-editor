@@ -123,6 +123,9 @@ The editor component. Simply place this component in your view hierarchy to rece
 * `onBlur`
   Callback editor blur
 
+* `moveCursorToEnd`
+Moves the cursor to the end of the content
+
 * `onCursorPosition`
   Callback Enter the position of the cursor
   ```this.scrollRef.current.scrollTo({y: scrollY - 30, duration: 100, animated: true});```
