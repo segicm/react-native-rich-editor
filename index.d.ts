@@ -177,6 +177,8 @@ export class RichEditor extends React.Component<RichEditorProps> {
      */
     setContentFocusHandler: (listener: () => void) => void;
 
+    moveCursorToEnd: () => void;
+
     /**
      * Set current HTML to be rendered
      */

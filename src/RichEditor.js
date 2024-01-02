@@ -325,6 +325,10 @@ export default class RichTextEditor extends Component {
         this.sendAction(actions.content, 'setHtml', html);
     }
 
+    moveCursorToEnd() {
+        this.sendAction(actions.content, 'moveCursorToEnd');
+    }
+
     setPlaceholder(placeholder) {
         this.sendAction(actions.content, 'setPlaceholder', placeholder);
     }

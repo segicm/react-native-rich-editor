@@ -368,7 +368,12 @@ function createHTML(options = {}) {
                 focus: function() { focusCurrent(); },
                 postHtml: function (){ postAction({type: 'CONTENT_HTML_RESPONSE', data: editor.content.innerHTML}); },
                 setPlaceholder: function(placeholder){ editor.content.setAttribute("placeholder", placeholder) },
-
+                moveCursorToEnd: function() {
+                    // select all the content in the element
+                    document.execCommand('selectAll', false, null);
+                    // collapse selection to the end
+                    document.getSelection().collapseToEnd();
+                },
                 setContentStyle: function(styles) {
                     styles = styles || {};
                     var bgColor = styles.backgroundColor, color = styles.color, pColor = styles.placeholderColor;
