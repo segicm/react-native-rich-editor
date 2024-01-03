@@ -6,12 +6,12 @@
   "license": "MIT",
   "private": false,
   "author": {
-    "name": "wxik",
-    "email": "io@wxik.com"
+    "name": "segicm",
+    "email": "segicm@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wxik/react-native-rich-editor.git"
+    "url": "https://github.com/segicm/react-native-rich-editor.git"
   },
   "dependencies": {
   },
